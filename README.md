@@ -17,8 +17,13 @@ samples, guidance on mobile development, and a full API reference.
 
 ## Amplify Datastore Memo
 Step1 amplify configure
+
 Step2 amplify init -> project create
+
 Step3 amplify add api
+
 Step4 amplify push -> aws push
+
 Step5 amplify codegen models -> dart add
+
 Step6 pubspec.yml amplify add
