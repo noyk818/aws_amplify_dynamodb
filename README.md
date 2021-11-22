@@ -1,29 +1,20 @@
-# aws_amplify_dynamodb
+# Amplify Datastore Memo
+Step1 amplify configure<BR>
+Step2 amplify init -> project create<BR>
+Step3 amplify add api<BR>
+Step4 amplify push -> aws push<BR>
+Step5 amplify codegen models -> dart add<BR>
+Step6 pubspec.yml -> amplify add
 
-A new Flutter project.
+即時DyanmoDBへ反映するためにはApp Syncの設定も必要、
+利用するためには「amplify add auth」を設定する必要がある
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
-## Amplify Datastore Memo
-Step1 amplify configure
-
-Step2 amplify init -> project create
-
-Step3 amplify add api
-
-Step4 amplify push -> aws push
-
-Step5 amplify codegen models -> dart add
-
-Step6 pubspec.yml amplify add
+$ amplify add auth<BR>
+Using service: Cognito, provided by: awscloudformation<BR>
+<BR>
+ The current configured provider is Amazon Cognito.<BR>
+<BR>
+Do you want to use the default authentication and security configuration? Default configuration<BR>
+Warning: you will not be able to edit these selections.<BR>
+How do you want users to be able to sign in? Username<BR>
+Do you want to configure advanced settings? No, I am done.<BR>
